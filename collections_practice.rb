@@ -13,7 +13,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array2 = array.split
+  array2 = array.split()
   collection = []
   collection << array2[0] + array2[2] + array2[1] + array2[3..-1]
 end
