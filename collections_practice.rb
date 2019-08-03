@@ -22,5 +22,5 @@ end
 
 def kesha_maker(array)
   array.each do |kesha|
-    
+    kesha[0..1] + "$" + kesha [2..-1]
 end
