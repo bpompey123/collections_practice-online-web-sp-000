@@ -15,7 +15,7 @@ end
 def swap_elements(array)
   collection = []
   collection << array[0] + array[2] + array[1]
-  collection.split(" ")
+  collection.join(" ")
 end
 
 def reverse_array(array)
