@@ -23,7 +23,7 @@ end
 def kesha_maker(array)
   collection = []
   array.each do |kesha|
-    collection << kesha[0..1] + "$" + kesha [2..-1]
+    collection << kesha[0..1] + "$" + kesha [3..-1]
   end
   collection
 end
